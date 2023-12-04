@@ -1,0 +1,132 @@
+* {
+  font-family: monospace;
+  font-style: DejaVu Sans Mono, monospace;
+}
+
+header {
+  background-color: #2d2c3a;
+  color: rgb(184, 184, 184);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  flex-wrap: nowrap;
+
+}
+
+.divhead {
+  margin-left: 10px;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  background-color: #747282;
+}
+
+.name {
+  font-size: 150px;
+  color: wheat;
+}
+
+.underblock {
+  justify-content: space-around;
+}
+
+.mainblock {
+  display: flex;
+  background-color: #56465a;
+  color: black;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-left: 400px;
+  margin-right: 400px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nameblock {
+  width: 67%;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin: 5px;
+  float: left;
+}
+
+.imageblock {
+  width: 28%;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin: 5px;
+  float: right;
+}
+
+.image_for_main_person {
+  height: 170px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.text_for_main_person {
+  font-size: 44px;
+  margin-left: 20px;
+  align-self: center;
+}
+
+.textblock {
+  margin: 20px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.hrefblock {
+  display: flex;
+  background-color: #56465a;
+  color: #2E151B;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-left: 400px;
+  margin-right: 400px;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: row;
+  padding: 20px;
+
+}
+
+.mainblock_formap {
+  background-color: #56465a;
+  color: #2E151B;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 10px;
+  position: relative;
+}
+
+.mainblock_formap .rainmap {
+  max-width: 100%;
+}
+
+a {
+  background-color: #605463;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  font-size: 20px;
+}
+@media(max-width: 1080px) and (min-width: 100px){
+   
+}
