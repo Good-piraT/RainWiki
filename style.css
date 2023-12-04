@@ -21,6 +21,7 @@ header {
 
 body {
   margin: 0;
+  flex-wrap: nowrap;
 }
 
 html {
@@ -64,6 +65,7 @@ html {
   margin-bottom: 5px;
   margin: 5px;
   float: right;
+  flex-wrap: nowrap;
 }
 
 .image_for_main_person {
